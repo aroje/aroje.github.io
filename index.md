@@ -45,7 +45,7 @@ Runs the command-line to get help on a particular action implemented in the appl
 The result is displayed in the **Result **edit box in the **
 Execution** group at the bottom of the window.
 
-[Get Help On Command](images/Documentation_5 witadminui2013 - Get Help On Command_7.png)
+![Get Help On Command](images/Documentation_5 witadminui2013 - Get Help On Command_7.png)
 
 ## Project Level Actions
 The tab **Project Level Actions** contains commands which are **executed against a team project**. You need to select the appropriate team project in the **Projects** list.
@@ -68,7 +68,7 @@ When exporting, the path set under **Export Folder** in the **Export/Import File
 When importing from file, the file from the **Import File Path** in the **Export/Import Files** group is used.
 When importing from XML, the XML from the **XML** edit box is used.
 
-[Project Level Actions - Work Items Types tab](images/Documentation_6 witadminui2013 - Project Level Actions - Work Items Types tab_4)
+![Project Level Actions - Work Items Types tab](images/Documentation_6 witadminui2013 - Project Level Actions - Work Items Types tab_4)
 
 ### **Destroy Work Item** tab
 
@@ -80,7 +80,7 @@ You can **destroy work items by selecting** them from the list of work items in 
 Populate the list using the **Get Work Item(s)** button either from the selected team project (**Only Selected Projects** radio) or from all team project in the collection (**All Projects** radio). Use the **Select All WIs**, **Unselect All WIs**, **Select n WIs** buttons to adjust your selection.
 
 
-[Project Level Actions - Destroy Work Item tab](images/Documentation_7 witadminui2013 - Project Level Actions - Destroy Work Item tab_4.png)
+![Project Level Actions - Destroy Work Item tab](images/Documentation_7 witadminui2013 - Project Level Actions - Destroy Work Item tab_4.png)
 
 ### **Categories** tab
 
@@ -92,7 +92,7 @@ When exporting, the path set under **Export Folder** in the **Export/Import File
 When importing from file, the file from the **Import File Path** in the **Export/Import Files** group is used.
 When importing from XML, the XML from the **XML** edit box is used.
 
-[Project Level Actions - Categories tab](images/Documentation_8 witadminui2013 - Project Level Actions - Categories tab_4.png)
+![Project Level Actions - Categories tab](images/Documentation_8 witadminui2013 - Project Level Actions - Categories tab_4.png)
 
 ## Collection Level Actions
 The tab **Collection Level Actions** contains commands which are executed against the project collection you are connected to.
@@ -104,7 +104,7 @@ Implements actions related to **handling work item fields** in the selected proj
 - **Delete** - _deletefield_
 - **Change** - _changefield_
 
-[alt text](images/Documentation_9 witadminui2013 - Collection Level Actions - Fields tab_4.png)
+![alt text](images/Documentation_9 witadminui2013 - Collection Level Actions - Fields tab_4.png)
 
 ### **Link Types** tab
 
@@ -122,7 +122,7 @@ When importing from file, the file from the **Import File Path** in the **Export
 
 When importing from XML, the XML from the **XML** edit box is used.
 
-[Collection Level Actions - Link Types tab](images/Documentation_10 witadminui2013 - Collection Level Actions - Link Types tab_6.png)
+![Collection Level Actions - Link Types tab](images/Documentation_10 witadminui2013 - Collection Level Actions - Link Types tab_6.png)
 
 ### **Global List** tab
 Implements actions related to **managing global lists** for the selected project collection:
@@ -138,4 +138,4 @@ When importing from XML, the XML from the **XML** edit box is used.
 When importing from list, the XML for import is generated from the contents of the **Global List** tree.
 By right clicking on a particular tree node you get the options to **Edit**/**Add**/**Delete** that node. The XML imported to TFS is loaded in the **XML** edit box.
 
-[Collection Level Actions - Global List tab](images/Documentation_11 witadminui2013 - Collection Level Actions - Global List tab_2.png)
+![Collection Level Actions - Global List tab](images/Documentation_11 witadminui2013 - Collection Level Actions - Global List tab_2.png)
