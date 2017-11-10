@@ -2,15 +2,15 @@
 
 ![witadminui](images/Documentation_1 witadminui2013_thumb.png)
 
-[Witadmin](https://msdn.microsoft.com/en-us/library/dd236914.aspx") is a command-line tool which comes with Visual Studio. As described in [MSDN](https://msdn.microsoft.com/en-us/library/dd236914.aspx), "_By using the **_witadmin_** command-line tool, you can create, delete, import, and export objects such as categories, global lists, global workflow, types of links, and types of work items. You can also permanently delete types of work item types, and you can delete, list, or change the attributes of fields in work item. As the following illustration shows, you manage categories and types of and work items for each team project. You manage global lists, types of links, and fields in work item for each team project collection. You can customize global workflow for a team project or a collection._"
+[Witadmin](https://msdn.microsoft.com/en-us/library/dd236914.aspx") is a command-line tool which comes with Visual Studio. As described in [MSDN](https://msdn.microsoft.com/en-us/library/dd236914.aspx), "_By using the **witadmin** command-line tool, you can create, delete, import, and export objects such as categories, global lists, global workflow, types of links, and types of work items. You can also permanently delete types of work item types, and you can delete, list, or change the attributes of fields in work item. As the following illustration shows, you manage categories and types of and work items for each team project. You manage global lists, types of links, and fields in work item for each team project collection. You can customize global workflow for a team project or a collection._"
 
-![witadminui](images/Documentation_2-witadmin msdn.png)
+![witadminui](images/Documentation_2-witadmin msdn_2.png)
 
 When working on customizing a process template, you need to perform several **_witadmin_** actions multiple times, and since it is a command line tool, it gets pretty bothersome composing the long commands over and over again with poor support for copy-paste actions. [TFS WitAdminUI](https://github.com/aroje/WitAdminUI) helps you by automatically generating commands based on the project collection and team project you are connected to. It allows you to preview generated commands with parameters for several **_witadmin_** actions, get help on those actions and execute them against the selected project collection and team project.
 
-_Note: The application uses **_witadmin_** tool from Visual Studio 2013. It was not tested against earlier versions of Team Foundation Server, but it should work due to backward compatibility of the **_witadmin_**  tool._
+_Note: The application uses **witadmin** tool from Visual Studio 2013. It was not tested against earlier versions of Team Foundation Server, but it should work due to backward compatibility of the **witadmin**  tool._
 
-_Note: The original code was taken from the CodePlex project [TFS WitAdminUI](http://witadminui.codeplex.com), and it was refactored and extended.
+_Note: The original code was taken from the CodePlex project [TFS WitAdminUI](http://witadminui.codeplex.com), and it was refactored and extended._
 
 ## Connecting to TFS
 
@@ -104,7 +104,7 @@ Implements actions related to **handling work item fields** in the selected proj
 - **Delete** - _deletefield_
 - **Change** - _changefield_
 
-![alt text](images/Documentation_9 witadminui2013 - Collection Level Actions - Fields tab_4.png)
+![Collection Level Actions - Fields tab](images/Documentation_9 witadminui2013 - Collection Level Actions - Fields tab_4.png)
 
 ### **Link Types** tab
 
@@ -126,11 +126,11 @@ When importing from XML, the XML from the **XML** edit box is used.
 
 ### **Global List** tab
 Implements actions related to **managing global lists** for the selected project collection:
-**Import from List** - uses method _WorkItemStore.ImportGlobalList_
-**Destroy** - _destroygloballist_
-**Export to File** - _exportgloballist_
-**Import from File** - _importgloballist_
-**Import from XML** - _importgloballist_
+- **Import from List** - uses method _WorkItemStore.ImportGlobalList_
+- **Destroy** - _destroygloballist_
+- **Export to File** - _exportgloballist_
+- **Import from File** - _importgloballist_
+- **Import from XML** - _importgloballist_
 
 When exporting, the path set under **Export Folder** in the **Export/Import Files** group is used. The file name is generated based on the TFS server name and project collection name. Additionally the exported file is loaded in the **XML** edit box.
 When importing from file, the file from the **Import File Path** in the **Export/Import Files** group is used.
